@@ -1,8 +1,8 @@
 cask "co-ops" do
   arch arm: "arm64", intel: "x64"
   
-  version "1.0.1"
-  sha256 arm: "553bafbf1a413283851fb827dffc212be0dfc6a5a13ba6c75a0f23d0a2514bc1", intel: "d1149ca0216ba3f13a3f198e5d23a51416ce8fd1b9c964e4618a316d315f4096"
+  version "1.0.2"
+  sha256 arm: "a6c413808f3ff0d425f6d24cb74a93b7f178148b90cfdcd24404cf3ba5ef4715", intel: "4a88a78a4a91420a934726c0acefdd3cc11a93919d6cca90c6c076b0c4017ada"
 
   url "https://download.co-ops.ai/Co-OPS-#{version}-#{arch}.dmg"
   name "Co-OPS"
